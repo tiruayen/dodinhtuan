@@ -1,0 +1,176 @@
+/* src/components/Header.module.css */
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  padding: 2px 60px;
+  background-color: #dcf5d0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative; /* để chứa popup */
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+}
+
+.locationDropdown {
+  position: relative;
+  margin-left: 10px;
+}
+
+.locationButton {
+  cursor: pointer;
+  border: 1px solid #59cf23;
+  background-color: #dcf5d0;
+  color: rgb(65, 216, 75);
+  padding: 10px 20px;
+  margin-left: 50px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 200px;
+  z-index: 1000;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.dropdownItem {
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.menuContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.menuLink {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.addressContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative; /* để chứa popup login */
+}
+
+.addressBox {
+  display: flex;
+  align-items: center;
+  border: 1px solid #33ce1f;
+  padding: -5px;
+  width: 250px;
+}
+
+.addressInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: #dcf5d0;
+}
+
+.addressImage {
+  height: 24px;
+  margin-left: 8px;
+}
+
+.loginButton {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #dcf5d0;
+  color: #3acb1d;
+  cursor: pointer;
+   border: 1px solid #19c82d;
+}
+
+.loginForm {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.loginForm h3 {
+  margin-top: 0;
+}
+
+.loginForm input {
+  width: 95%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 8px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registerLink {
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.otpContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.otpInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sendOtpButton {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.menulist {
+  color: green;
+  padding-left: 310px;
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.menulist :hover {
+
+  color: rgb(0, 0, 0);
+}

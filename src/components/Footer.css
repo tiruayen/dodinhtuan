@@ -1,0 +1,68 @@
+.footer-container {
+  background-color: #d4e4d1; /* Màu xanh nhạt giống ảnh */
+      padding: 0 200px 50px 200px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column .logo-section {
+  margin-bottom: 15px;
+}
+
+.footer-column .text-section {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 26px;
+}
+
+.footer-column .empty-section {
+  height: 20px; /* Đảm bảo khoảng trống hợp lý */
+}
+
+.logo2 {
+    padding-top: 70px;
+  width: 150px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.icon-section {
+    padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  height: 30px; /* Kích thước icon theo ảnh */
+  vertical-align: middle;
+}
+
+/* Style tiêu đề giống "Taurus Fast Food" trong ảnh */
+.header-text {
+  font-family: 'Times New Roman', serif;
+  font-size: 24px;
+  color: #4a704a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Đảm bảo hình ảnh không vượt quá kích thước */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.text-sections{
+        padding-top: 140px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 26px;
+}

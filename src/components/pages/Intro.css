@@ -1,0 +1,27 @@
+.intro-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.intro-container h1 {
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.vui {
+  padding: 10px 200px;
+  margin-bottom: 15px;
+  color: #333;
+}
